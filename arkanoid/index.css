@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+#my{
+    background-color: brown;
+    /* background-image: url("background.png"); */
+    margin-top: 50px;
+    border:15px solid red;
+    border-radius: 20px;
+}
