@@ -1,26 +1,7 @@
 
 var canvas=document.querySelector('#my')
-// console.log(canvas)
-//render 2d context
 var ctx=canvas.getContext('2d')
-//for sqaure
-// ctx.beginPath()
-// ctx.fillStyle='red'
-// ctx.fillRect(10,0,100,100);
-// ctx.closePath()
-// //circle
-// ctx.beginPath()
-// ctx.arc(240, 260, 20, 00, Math.PI*2, false)
-// ctx.fillStyle = "green"
-// ctx.fill()
-// ctx.closePath()
-// //use stroke for color outside
-// //andar s khali rectangle
-// ctx.beginPath()
-// ctx.rect(160, 10, 100, 40)
-// ctx.strokeStyle = "yellow"
-// ctx.stroke()
-// ctx.closePath()
+
 
 //position for ball
 var x=canvas.width/2
@@ -114,8 +95,7 @@ function draw(){
             if(!lives){
             alert('GAME OVER ... TRY BETTER NEXT TIME ..Your Score is : '+score+' !!')
             document.location.reload()
-            // clearInterval(interval)
-            // document.body.style.backgroundColor="red"
+            
             }else{
                 x=canvas.width/2
                 y=canvas.height-30
