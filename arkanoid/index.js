@@ -3,8 +3,8 @@ var canvas=document.querySelector('#my')
 var ctx=canvas.getContext('2d')
 
 
-//position for ball
-var x=canvas.width/2
+
+var x=canvas.width/2//position for ball
 var y=canvas.height-30
 //for adding to x and y bcz moving
 var dx=2//2 bcz diagnol direction
