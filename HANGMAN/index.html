@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>Hangman Game</title>
+  <style>
+    body{
+      background-color: black;
+    }
+    #imgs{
+      border-radius: 8px;
+      height: 50px;
+    }
+    #imgs1{
+      height: 40px;
+      width:50px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center" style="color: aliceblue; margin-top: 20px;" >Hangman Game</h1>
+  <div class="float-left" style="color: red; font-family: New Century Schoolbook, TeX Gyre Schola, serif; font-size: large; background-color: blue; font-size:30px; margin-top: 20px;"><b>Wrong Guesses: <i><span id='mistakes' style="color: aqua;">0</span></i> of <span id='maxWrong'></span></div></b>
+  <div class="text-center">
+    <img id='hangmanPic' src="./images/0.jpg" alt="">
+    <span class="button"><button onclick="hint()" class="btn btn-outline-secondary">HINT?</button><img id="imgs" src="https://cdn-icons-png.flaticon.com/512/2353/2353678.png"></p></span>
+    <p style="color: aliceblue; margin-top: 30px; font-family: OCR A Std, monospace; font-size:50px"><b>Guess Some IT thing below </b><img id="imgs1" src="https://cdn-icons-png.flaticon.com/512/3750/3750030.png"></p>
+    <p id="wordSpotlight" style="color: aliceblue;">The word to be guessed goes here</p>
+    <div id="keyboard" style="border-radius: 20px;"></div><br>
+    <center><button class="btn btn-outline-secondary" onClick="reset()">Reset</button></center> 
+  </div>
+</div>
+
+<script src='./js/hangman.js'></script>
+</body>
+</html>
