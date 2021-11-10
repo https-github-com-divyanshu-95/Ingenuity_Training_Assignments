@@ -19,9 +19,10 @@ body{
 #play{
 	color: red; 
     margin-top: 50px;
+    margin-left: 700px;
 }
 #arkanoid{
-	margin-top: 50px; 
     color: red; 
     font-size: 40px;
+    margin-left: 950px;
 }
