@@ -3,8 +3,26 @@ body{
 }
 #my{
     background-color: brown;
-    /* background-image: url("background.png"); */
     margin-top: 50px;
     border:15px solid red;
     border-radius: 20px;
+}
+#game{
+	margin-top: 100px; 
+    margin-left: 15px; 
+    font-size: 40px; 
+    color: blue;
+}
+#inst{
+	color: aliceblue;
+}
+#play{
+	color: red; 
+    margin-top: 50px;
+    margin-left: 700px;
+}
+#arkanoid{
+    color: red; 
+    font-size: 40px;
+    margin-left: 950px;
 }

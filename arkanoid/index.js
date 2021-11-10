@@ -1,4 +1,3 @@
-
 var canvas=document.querySelector('#my')
 var ctx=canvas.getContext('2d')
 
@@ -79,12 +78,10 @@ function draw(){
     if(x+dx<radius||x+dx>canvas.width-radius){
         dx=-dx
         color=getRandomColor()
-        // document.getElementById("myDiv").style.backgroundColor = "blue";
     }if (y+dy<radius) {//top bottom bounce
         dy=-dy
         color=getRandomColor()
         
-        // document.getElementById("my").style.backgroundColor = "red";
     }else if(y+dy>canvas.height-radius){
         if(x>xaxis&&x<xaxis+width){
             //speed after touch the wall
