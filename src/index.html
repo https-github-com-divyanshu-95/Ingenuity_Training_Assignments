@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Document</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <style>
+            img{
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            #can{
+                position: absolute;
+                top: 60px;
+                right: 170px;
+            }
+            #card{
+                position: absolute;
+                top: 200px;
+                left: 480px;
+                width: 450px;
+                height: 200px;
+                background-color: black;
+                z-index: 10;
+                color: rgb(122, 238, 203);
+                font-size: 50px;
+                border-radius: 10px;
+                padding: 15px;
+                text-align: center;
+                display: none;
+            }
+            #close{
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                font-size: 25px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="my-can" width="" height=""></canvas>
+        <img src="./assets/bg1.png" alt="">
+        <article id="card">
+            <article id="close">
+                <i class="far fa-times" ></i>
+            </article>
+            You Won <i class="fas fa-gifts"></i>
+            <br><br>
+            <span id="points">10 Points</span>
+        </article>
+        
+    </body>
+</html>
